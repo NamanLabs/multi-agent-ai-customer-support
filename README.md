@@ -102,9 +102,3 @@ Try this query to see multi-agent dispatch in action (matches the spec's example
 ```
 This should invoke both the Billing Agent and Technical Support Agent.
 
-## Notes
-
-- Escalation triggers on: low intent-classification confidence (<0.45), detected
-  Complaint intent, or strong negative-sentiment keywords in the query.
-- Chat works for guest users too; login is optional but enables session
-  history tied to a real account.
